@@ -13,14 +13,14 @@ Computer vision aim aligner made in Python &amp; Cython
 3. You should see a .pyd file. Now make sure the .pyd stays in the same directory as everything else
 4. You will need an ONNX model to use, grab one and rename it to ```best.onnx``` and put it in the same directory as everything else
 5. Make a new Python script (or copy test_module.py) and use these 2 lines
-```
+```Python
 import aimbot
 
 # You can obviously change these paramaters, You can only use RMB as aim_key for now
 aimbot.run_aim_alignment(
     aim_key="RMB",
     fov_radius=250,
-    fov_enabled=True,
+    fov_enabled=True, # Doesn't display, still works | BROKEN
     ai_confidence=0.17,
     sensitivity=1.70,
     gpu=True,
