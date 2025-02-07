@@ -14,6 +14,7 @@ Computer vision aim aligner made in Python &amp; Cython
 4. Make a new Python script (or copy test_module.py) and use these 2 lines
 ```
 import aimbot
+
 aimbot.run_aim_alignment(
     aim_key="RMB",
     fov_radius=250,
