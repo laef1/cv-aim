@@ -16,6 +16,7 @@ Computer vision aim aligner made in Python &amp; Cython
 ```
 import aimbot
 
+# You can obviously change these paramaters, You can only use RMB as aim_key for now
 aimbot.run_aim_alignment(
     aim_key="RMB",
     fov_radius=250,
