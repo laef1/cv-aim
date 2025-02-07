@@ -1,0 +1,8 @@
+numpy
+onnxruntime
+opencv-python
+dxcam
+tensorrt
+pycuda
+cython
+onnx
