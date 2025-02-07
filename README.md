@@ -11,7 +11,8 @@ Computer vision aim aligner made in Python &amp; Cython
 1. Open CMD in the same directory as your previous folder you made in **Prerequisites**
 2. To compile this .pyx file use this command ```python setup.py build_ext --inplace```
 3. You should see a .pyd file. Now make sure the .pyd stays in the same directory as everything else
-4. Make a new Python script (or copy test_module.py) and use these 2 lines
+4. You will need an ONNX model to use, grab one and rename it to ```best.onnx``` and put it in the same directory as everything else
+5. Make a new Python script (or copy test_module.py) and use these 2 lines
 ```
 import aimbot
 
