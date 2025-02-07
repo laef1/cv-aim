@@ -18,7 +18,7 @@ import aimbot
 
 # You can obviously change these paramaters, You can only use RMB as aim_key for now
 aimbot.run_aim_alignment(
-    aim_key="RMB",
+    aim_key="RMB", # No other binds besides RMB
     fov_radius=250,
     fov_enabled=True, # Doesn't display, still works | BROKEN
     ai_confidence=0.17,
