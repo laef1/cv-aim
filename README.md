@@ -37,3 +37,4 @@ If your .pyx file doesn't compile you might not have these few things installed.
 2. Launch Visual Studio Installer (comes with Visual Studio)
 3. Click Modify
 4. Check ```Desktop development with C++```
+5. Then download it.
