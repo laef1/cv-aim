@@ -3,7 +3,7 @@ Computer vision aim aligner made in Python &amp; Cython
 
 # Prerequisites 
 1. Download **requirements.txt, aim_alignment.pyx, and setup.py**
-2. Put all 3 of them in the same folder!
+2. Put all 3 of them in the same folder
 3. Open CMD in the same directory as those 3 files
 4. Type this into CMD ```pip install -r requirements.txt```
 
