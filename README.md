@@ -30,3 +30,10 @@ aimbot.run_aim_alignment(
 )
 ```
 NOTE: To change the name, setupy.py -> Replace "Aimbot" with your perferred name.
+
+# Not Compiling?
+If your .pyx file doesn't compile you might not have these few things installed.
+1. Install Visual Studio
+2. Launch Visual Studio Installer (comes with Visual Studio)
+3. Click Modify
+4. Check ```Desktop development with C++```
